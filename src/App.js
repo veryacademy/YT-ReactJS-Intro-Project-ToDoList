@@ -28,6 +28,8 @@ export default class App extends Component {
 				{ action: this.state.newTodo, done: false },
 			],
 		});
+		// To reset form field
+        	this.setState({newTodo:''})
 	};
 
 	todoRows = () =>
